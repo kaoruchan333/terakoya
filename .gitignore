@@ -1,0 +1,15 @@
+# 絶対にGitHubに上げないもの
+.env
+*.key
+*.secret
+secrets/
+
+# 個人情報・機密
+knowledge/finance/
+knowledge/people/
+knowledge/accounts/
+resources/
+scripts/
+
+# Mac システムファイル
+.DS_Store
